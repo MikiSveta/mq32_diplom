@@ -994,6 +994,11 @@
   .product-name {
   font-size: 17px;
   }
+
+  .socials {
+    margin-left: 15px;
+    margin-right: 13px;
+  }
 }
 
 
@@ -1009,22 +1014,22 @@
   background-size: cover;
   }
 
+  
   .img {
+    width: 75%;
   position: absolute;
-  display: flex;
-  margin: auto;
-  top: 35%;
-  left: 8%;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   }
 
-  .logo-img {
-  display: block;
-  width: 90%;
-  }
-
+.logo-img {
+  width: 100%;
+}
   .header-slogan {
   position: relative;
-  margin-top: 60px;
+  justify-content: center;
+ 
   }
 
   .title {
