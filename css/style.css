@@ -1036,19 +1036,15 @@
     line-height: 36px;
   }
 
-  .trend-box {
+  .trend {
     width: 100%;
+    border: none;
   }
 
   .category {
     width: 100%;
   }
 
-  .trend {
-    width: 100%;
-  }
-
-  
   .subtitle {
     font-size: 16px;
   }
