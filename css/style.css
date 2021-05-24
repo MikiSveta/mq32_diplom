@@ -1003,9 +1003,14 @@
     margin-left: 30px;
   }
 
+  .product-box {
+    margin: 0; 
+  }
+
   .product {
-    width: 48%;
+    width: 50%;
     margin-top: 30px;
+    padding: 15px;
   }
 
   .product-name {
