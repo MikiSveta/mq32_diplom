@@ -208,8 +208,7 @@
   background-position: center center;
   background-size: cover;
   background-color: #000000;
-  
-  position: relative;
+  position: relative; 
 }
 
 .header::after {
@@ -221,6 +220,8 @@
   bottom: 0;
   background-color: #000000;
   opacity: 0.45;
+
+  
 }
 
 .header-container  {
@@ -234,16 +235,29 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+}
+
+.logo {
+  z-index: 1;
+  
 }
 
 .logo-img {
-  width: 180px;
+  width: 180px;  
 }
+
 
 .menu-list {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
+  
+  
+}
+
+.menu-list-item {
+  z-index: 1;
 }
 
 .next {
@@ -255,6 +269,7 @@
   margin: auto;
   height: 460px;
   width: 48%;
+  
 }
 
 .title {
@@ -267,6 +282,7 @@
   line-height: 75px;
   margin: auto;
   z-index: 1;
+  
 }
 
 .menu-link {
@@ -276,6 +292,8 @@
   text-decoration: none;
   color: #ffffff;
   font-size: 14px;
+  
+
 }
 
 
@@ -878,6 +896,7 @@
     position: relative;
     text-indent: -9999px;
     cursor: pointer;
+    z-index: 1;
   }
 
   .menu-button:before {
@@ -892,10 +911,12 @@
     background-color: #ffffff;
     position: absolute;
     left: 0;
+    z-index: 1;
   }
 
   .menu-button:after {
     bottom: 0;
+    z-index: 1;
   }
 
   .menu-button:before, .menu-button:after {
@@ -906,13 +927,10 @@
     background-color: #ffffff;
     position: absolute;
     left: 0;
+    z-index: 1;
   }
 
-  .menu-button:after {
-    bottom: 0;
-  }
-
-  .menu-button-label {
+    .menu-button-label {
     width: 100%;
     height: 20%;
     margin-top: -0.1em;
