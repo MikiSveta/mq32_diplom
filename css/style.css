@@ -268,7 +268,7 @@
   display: flex;
   margin: auto;
   height: 460px;
-  width: 48%;
+  max-width: 790px;
   
 }
 
@@ -906,7 +906,7 @@
   .menu-button:before, .menu-button:after {
     content: "";
     width: 100%;
-    height: 20%;
+    height: 5px;
     border-radius: 5px;
     background-color: #ffffff;
     position: absolute;
@@ -919,20 +919,9 @@
     z-index: 1;
   }
 
-  .menu-button:before, .menu-button:after {
-    content: "";
-    width: 100%;
-    height: 20%;
-    border-radius: 5px;
-    background-color: #ffffff;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-  }
-
     .menu-button-label {
     width: 100%;
-    height: 20%;
+    height: 5px;
     margin-top: -0.1em;
     border-radius: 5px;
     background-color: #ffffff;
